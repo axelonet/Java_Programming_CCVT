@@ -7,6 +7,7 @@ public class Employee implements Cloneable{
 		super();
 		this.eid = eid;
 		this.ename = ename;
+		//prints emp id
 	}
 	public int getEid() {
 		return eid;
@@ -16,6 +17,7 @@ public class Employee implements Cloneable{
 	}
 	public String getEname() {
 		return ename;
+		//prints name
 	}
 	public void setEname(String ename) {
 		this.ename = ename;
